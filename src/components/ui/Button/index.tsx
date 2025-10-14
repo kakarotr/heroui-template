@@ -1,7 +1,7 @@
 import { Button as HeroButton } from '@heroui/button'
 import { extendVariants } from '@heroui/system'
 
-const Button = extendVariants(HeroButton, {
+export const Button = extendVariants(HeroButton, {
   variants: {
     size: {
       sm: 'h-7 px-2 min-w-0',
@@ -13,5 +13,3 @@ const Button = extendVariants(HeroButton, {
     size: 'md'
   }
 })
-
-export default Button
