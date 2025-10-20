@@ -38,7 +38,7 @@ export default defineConfig([
         'objectsInObjects': false,
         'arraysInObjects': false
       }],
-
+      '@typescript-eslint/no-explicit-any': 'off',
       'template-curly-spacing': ['error', 'never'],
 
       'comma-spacing': ['error', { 'before': false, 'after': true }],
